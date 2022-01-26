@@ -1,0 +1,42 @@
+:root{
+    --panda-primary: #fceae8;
+    --panda-secondary: #ff438d;
+    --panda-info:#ff438e;
+    --panda-warning: #ff136f;
+    --color-white: #fff;
+    --color-title: #ff2077;
+    --font-color: #fe2178;
+    --card-background-color: #da70d6;
+
+}
+.banner{
+    height: calc(100vh - 200px) !important;
+}
+.font-color{
+    color: var(--font-color);
+}
+.title-color{
+    color: var(--color-title);
+}
+.panda-bg-color{
+    background-color: var(--panda-primary);
+}
+.panda-bg-button{
+    background: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    padding: 8px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.panda-bg-button:focus{
+    border: 2px solid black;
+}
+.card-backround-color-one{
+    background-color: #ffa500;
+}
+.card-backround-color-two{
+    background-color: var(--card-background-color);
+}
+.card-backround-color-three{
+    background-color: #0000ff;
+}
